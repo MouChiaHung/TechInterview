@@ -1,0 +1,17 @@
+me.yokeyword.fragmentation_components
+anim h_fragment_enter
+anim h_fragment_exit
+anim h_fragment_pop_enter
+anim h_fragment_pop_exit
+anim no_anim
+anim pop_exit_no_anim
+anim v_fragment_enter
+anim v_fragment_exit
+anim v_fragment_pop_enter
+anim v_fragment_pop_exit
+drawable fragmentation_help
+drawable fragmentation_ic_expandable
+drawable fragmentation_ic_right
+drawable fragmentation_ic_stack
+id hierarchy
+id isexpand

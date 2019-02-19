@@ -1,0 +1,18 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+
+
+    defaultConfig {
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+    }
+    buildToolsVersion '27.0.3'
+}
+
+dependencies {
+    provided "com.android.support:appcompat-v7:$rootProject.v4Version"
+    compile project(':fragmentation_core')
+    compile project(path: ':logger')
+}

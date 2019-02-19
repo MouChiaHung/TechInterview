@@ -1,0 +1,4 @@
+me.yokeyword.fragmentation_swipeback
+drawable shadow_bottom
+drawable shadow_left
+drawable shadow_right

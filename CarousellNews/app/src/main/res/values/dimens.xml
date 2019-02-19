@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="bottombar_height">52dp</dimen>
+    <dimen name="intrinsic_padding">6dp</dimen>
+    <dimen name="card_margin">14dp</dimen>
+</resources>

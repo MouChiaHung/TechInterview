@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.yokeyword.eventbusactivityscope" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="27" />
+
+    <application>
+        <provider
+            android:name="me.yokeyword.eventbusactivityscope.RuntimeTrojanProvider"
+            android:authorities="${applicationId}.eventbus_activity_scope_trojan"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>
